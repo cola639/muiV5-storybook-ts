@@ -36,12 +36,9 @@
   "rules": {
     "react-hooks/rules-of-hooks": "error",
     "prettier/prettier": [
-      "warn",
-      {},
+      "error",
       {
-        "properties": {
-          "usePrettierrc": true
-        }
+        "endOfLine": "auto"
       }
     ],
     "import/order": [
